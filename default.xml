@@ -11,5 +11,7 @@
 	<project path="device/xiaomi/veux-kernel" name="Arrancar-A/device_xiaomi_veux-kernel" remote="ghub" revision="main" clone-depth="1" />
 	<project path="vendor/xiaomi/veux" name="Arrancar-A/vendor_xiaomi_veux" remote="ghub" revision="main" />
 	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-21" />
+	<remove-project path="vendor/lineage/compat" name="LeafOS-Project/android_vendor_lineage_compat" />
+	<project path="vendor/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="ghub" revision="lineage-21.0" />
 
 </manifest>
