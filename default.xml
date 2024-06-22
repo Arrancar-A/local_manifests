@@ -21,7 +21,7 @@
 	<project path="vendor/leaf" name="Arrancar-A/android_vendor_leaf" revision="leaf-3.2" >
 		<linkfile src="config" dest="vendor/lineage/config" />
 	</project>
-	<project path="bootable/recovery" name="Arrancar-A/android_bootable_recovery" remote="leaf-3.2" />
+	<project path="bootable/recovery" name="Arrancar-A/android_bootable_recovery" revision="leaf-3.2" />
 
 
 
