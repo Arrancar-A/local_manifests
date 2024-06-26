@@ -16,12 +16,16 @@
 	<!-- remove unpatched projects -->
 	<remove-project path="vendor/leaf" name="LeafOS-Project/android_vendor_leaf" />
 	<remove-project path="bootable/recovery" name="LeafOS-Project/android_bootable_recovery" groups="pdk" />
+        <remove-project path="vendor/lineage/compat" name="LeafOS-Project/android_vendor_lineage_compat" />
+	
+
 	
 	<!-- fetch patches projects-->
 	<project path="vendor/leaf" name="Arrancar-A/android_vendor_leaf" revision="leaf-3.2" >
 		<linkfile src="config" dest="vendor/lineage/config" />
 	</project>
 	<project path="bootable/recovery" name="Arrancar-A/android_bootable_recovery" revision="leaf-3.2" />
+        <project path="vendor/lineage/compat" name="Arrancar-A/android_vendor_lineage_compat" revision="leaf-3.2"/>
 
 
 
