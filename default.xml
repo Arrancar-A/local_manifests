@@ -13,6 +13,5 @@
 
   <!--Additional projects-->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-21" />
-  <project path="vendor/extra" name="Arrancar-A/android_vendor_extra" revision="main" />
-
+  
   </manifest>
